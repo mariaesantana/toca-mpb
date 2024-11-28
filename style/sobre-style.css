@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d2b48c;
+}
+/*Cabeçalho*/
+
+.header-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    background-image: url("/img/background/bandeira-pernambuco.png");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding: 20px;
+    color:#fff;
+    
+}
+
+.logotipo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    display:flex; 
+    gap: 15px;
+}
+
+.toca-mpb{
+    font-size: 20px;
+    font-family: 'Lora', sans-serif;
+    padding-top: 10px;
+}
+
+.list{
+    display:flex;
+    gap:16px;
+}
+
+.item{
+    list-style: none;
+    font-size: 18px;
+}
+
+.item a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.banner h1{
+    font-family:'Berkshire Swash', sans-serif;
+    font-size: 40px;
+}
+
+.banner p{
+    display: inline-block;
+    width: 800px;
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap:10px;
+}
+.main-container h3{
+  font-size: 22px;
+  font-family: 'Lora', sans-serif;
+  padding-top: 2rem;
+  color: #2c123c;
+
+  }
+
+.main-container p {
+    display: inline-block;
+    width: 75%;
+   text-align: justify;
+   font-family: 'Lora', sans-serif;
+   color: #2c123c;
+
+
+}
+
+
+
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+    padding: 30px;
+}

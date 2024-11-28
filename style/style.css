@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d2b48c;
+}
+/*Cabeçalho*/
+
+.header-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    background-image: url("/img/background/banner-home.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding: 20px;
+    color:#fff;
+    
+}
+
+.logotipo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    display:flex; 
+    gap: 15px;
+}
+
+.toca-mpb{
+    font-size: 20px;
+    font-family: 'Lora', sans-serif;
+    padding-top: 10px;
+}
+
+.list{
+    display:flex;
+    gap:16px;
+}
+
+.item{
+    list-style: none;
+    font-size: 18px;
+}
+
+.item a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.banner h1{
+    font-family:'Berkshire Swash', sans-serif;
+    font-size: 40px;
+}
+
+.banner p{
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+}
+
+/*Conteúdo principal*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.playlists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.playlists h3{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-size: 22px;
+    color:#2c123c;
+    margin-top: 30px;
+}
+
+.playlist-item a{
+    text-decoration: none;
+    color:#2c123c;
+    font-weight: bold;
+}
+
+.playlist-item p{
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+}
+
+.img-playlist{
+    width: 400px;
+    height: 300px;  
+    object-fit: cover;
+}
+.divisor{
+  width: 80%; 
+  height: 2px; 
+  border: 1px solid #888080;
+  opacity: 0.5;
+  margin: 20px auto; 
+}
+.history-mpb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.history-mpb h3{
+    font-family: 'Lora', sans-serif;
+    font-size: 22px;
+    color:#2c123c;
+}
+
+
+/*Rodapé*/
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+    padding: 30px;
+}
