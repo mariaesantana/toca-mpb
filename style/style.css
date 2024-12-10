@@ -79,11 +79,13 @@ body{
     flex-direction: column;
     gap: 30px;
 }
+
 .playlists{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 .playlists h3{
@@ -95,7 +97,15 @@ body{
     color:#2c123c;
     margin-top: 30px;
 }
+.playlist-item {
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
 
+.playlist-item:hover{
+    transform: scale(1.05); 
+
+}
 .playlist-item a{
     text-decoration: none;
     color:#2c123c;
